@@ -3,6 +3,13 @@ AIoT-enabled Smart Kitchen Safety System using ESP32, Multi-Sensor Fusion &amp; 
 
 # 🍳 Smart Kitchen AIoT Safety System
 
+![Hardware](https://img.shields.io/badge/Hardware-ESP32-blue)
+![AI](https://img.shields.io/badge/AI-Edge%20AI-green)
+![ML](https://img.shields.io/badge/ML-TensorFlow%20Lite-orange)
+![Accuracy](https://img.shields.io/badge/Accuracy-97.17%25-brightgreen)
+![Status](https://img.shields.io/badge/Project-Academic%20Research-purple)
+
+
 AIoT-enabled kitchen hazard detection & prevention platform using **ESP32**,  
 **Multi-Sensor Fusion**, and **TensorFlow Lite Micro**.
 
