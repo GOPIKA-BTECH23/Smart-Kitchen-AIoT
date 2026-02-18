@@ -82,6 +82,42 @@ Features:
 - System status feedback
 
 ---
+## 📸 Project Visuals
+
+### 🏗 Hardware Simulation (Wokwi)
+![Hardware](docs/hardware_simulation.png)
+
+---
+
+### 🧠 Neural Network Architecture
+![NN](docs/nn_architecture.png)
+
+---
+
+### 🔁 Control & Communication Flow
+![Flow](docs/control_communication_flow.png)
+
+---
+
+### 📊 Model Accuracy
+![Accuracy](docs/model_accuracy.png)
+
+---
+
+### 📉 Model Loss
+![Loss](docs/model_loss.png)
+
+---
+
+### ✅ Confusion Matrix
+![Confusion](docs/confusion_matrix.png)
+
+---
+
+### 📋 Evaluation Metrics
+![Metrics](docs/metrics_table.png)
+---
+
 
 ## 📄 Research Contribution
 
