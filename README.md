@@ -16,9 +16,15 @@ AIoT-enabled kitchen hazard detection & prevention platform using **ESP32**,
 The **Smart Kitchen AIoT Safety System** is a low-cost **Edge AI + IoT solution**  
 designed to detect hazardous cooking conditions in real time and prevent accidents.
 
-Unlike traditional safety systems that react after smoke/fire detection,  
-this system performs **proactive hazard prediction** using sensor fusion and  
-a **lightweight neural network deployed directly on ESP32**.
+Unlike traditional safety mechanisms that react only after detecting smoke or fire,  
+this system performs **proactive hazard prediction** through sensor fusion and  
+a **lightweight neural network deployed directly on the ESP32 microcontroller**.
+
+This ensures:
+
+✔ Ultra-low latency  
+✔ Cloud independence  
+✔ Real-time autonomous response  
 
 ---
 
@@ -30,7 +36,7 @@ a **lightweight neural network deployed directly on ESP32**.
 - 🔌 Automatic relay-based safety shutdown
 - 🚨 Audible & visual alerts (Buzzer / LED)
 - 🌐 Live web dashboard monitoring
-- ☁️ Cloud-independent architecture (low latency)
+- ☁️ Cloud-independent architecture
 
 ---
 
@@ -54,15 +60,6 @@ a **lightweight neural network deployed directly on ESP32**.
 - HTML / CSS / JavaScript  
 - AJAX / JSON Communication  
 - Wokwi IoT Simulator  
-
----
-
-## 🏗 System Architecture
-
-![Architecture](docs/architecture.png)
-
-The system continuously collects sensor readings, performs **on-device ML inference**,  
-and autonomously triggers safety mechanisms when hazardous conditions are detected.
 
 ---
 
@@ -101,7 +98,7 @@ and autonomously triggers safety mechanisms when hazardous conditions are detect
 
 ![Flow](docs/control_communication_flow.png)
 
-The ESP32 hosts an HTTP web server enabling:
+The ESP32 hosts an **HTTP web server** enabling:
 
 - Live sensor visualization  
 - Real-time hazard prediction updates  
@@ -125,17 +122,16 @@ The web interface provides:
 
 ![Hardware](docs/hardware_simulation.png)
 
-System design and pin validation were first verified using the **Wokwi Simulator**,  
-ensuring safe hardware integration and debugging.
+System design, sensor behavior, and pin validation were first verified using the  
+**Wokwi IoT Simulator**, ensuring safe hardware integration and debugging.
 
 ---
 
-## 📄 Research Contribution
+## 📄 Research Paper
 
-This project was developed as part of an **IoT Academic Course Project**  
-and resulted in a **conference research paper publication**.
+This project resulted in a **conference research paper publication**:
 
-📎 **Paper available in:** `/paper`
+📎 **[Smart Kitchen AIoT – Conference Paper](paper/Smart_Kitchen_AIoT_Conference_Paper.pdf)**
 
 ---
 
